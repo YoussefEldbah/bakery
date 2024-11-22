@@ -1,0 +1,366 @@
+/*                  H O M E       P A G E           D E S G I N                */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: #303030;
+
+}
+
+.clearfix {
+    clear: both;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.home {
+    background-image: url("../images/drew-coffman-1872.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: auto;
+}
+
+.home-content {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.navlogo {
+
+    width: 100%;
+    margin-top: 10px;
+}
+
+.navlogo img {
+    width: 13%;
+    float: left;
+}
+
+.navbar ul {
+    float: right;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    float: left;
+    padding: 15PX;
+    margin-top: 8px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.home-content p {
+    margin: 20px;
+    font-size: 25px;
+}
+
+.home-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px;
+    color: #fff;
+
+}
+
+.home-content button {
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    margin: 10px 5px;
+}
+
+.btn1 {
+    background-color: #8e7754;
+    border-radius: 5px;
+    font-weight: bold;
+    border-width: 0px;
+
+}
+
+.btn2 {
+    background-color: transparent;
+    border: 2px solid white;
+    font-weight: sold;
+    border-radius: 5px;
+}
+
+/* A B O U T       P A G E           D E S G I N */
+
+.about {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.imgwho {
+    width: 40%;
+    float: left;
+}
+
+.imgwho img {
+    width: 100%;
+    float: left;
+}
+
+.whocontent {
+    width: 50%;
+    float: right;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 40px;
+    margin-right: 20px;
+    font-family: "Alegreya Sans";
+    color: #686868;
+
+}
+
+.whocontent p {
+    margin: 20px 0px;
+    font-weight: 400;
+
+}
+
+.aboutlist {
+    text-align: left;
+
+}
+
+.whocontent h2 {
+    font-size: 32px;
+    color: #303030;
+    font-family: "Alegreya";
+}
+
+.aboutlist ul li {
+    padding: 12px;
+}
+
+/* O U R       O F F E R       P A G E           D E S G I N  */
+.ouroffer {
+    width: 100%;
+    background-color: #f8f8f8;
+    margin: auto;
+    margin-top: 50px;
+    font-family: "Alegreya Sans";
+    color: #686868;
+    font-size: 20px;
+
+
+
+}
+
+.offerimg {
+    width: 40%;
+    float: right;
+
+}
+
+.offerimg img {
+    width: 500px;
+    background-color: #f8f8f8;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.offercontent {
+    padding-top: 70px;
+    width: 47%;
+    text-align: left;
+    float: left;
+    margin: 50px 40px;
+}
+
+.offercontent h2 {
+    font-size: 32px;
+    color: #303030;
+    font-family: "Alegreya";
+    margin-bottom: 20px;
+}
+
+.offercontent p {
+    font-weight: 400;
+}
+
+.p1 {
+    margin: 30px 0px;
+}
+
+/* G A L L A  R Y       P A G E           D E S G I N  */
+.baking {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Alegreya";
+
+
+}
+
+.items {
+    width: 90%;
+    margin: auto;
+}
+
+.item {
+    text-align: center;
+    width: 33%;
+    float: left;
+    padding: 50px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Alegreya"
+}
+
+.item img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.item h2 h3 {
+    color: #303030;
+}
+
+.baking p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #888;
+
+}
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+
+
+.contact {
+    width: 100%;
+    background-color: #f8f8f8;
+    margin: auto;
+    margin-top: 50px;
+    font-family: "Alegreya Sans";
+    color: #686868;
+    font-size: 20px;
+}
+
+.contactimg {
+    width: 40%;
+    float: right;
+
+}
+
+.contactimg img {
+    width: 500px;
+    background-color: #f8f8f8;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contactcontent {
+    padding-top: 70px;
+    width: 47%;
+    text-align: left;
+    float: left;
+    margin: 50px 40px;
+}
+
+.contactcontent h2 {
+    font-size: 32px;
+    color: #303030;
+    font-family: "Alegreya";
+    margin-bottom: 20px;
+}
+
+.contactcontent p {
+    font-weight: 400;
+}
+
+.p1 {
+    margin-bottom: 30px;
+}
+
+.p2 {
+    margin-bottom: 30px;
+
+}
+
+/* R O W S                             P A G E           D E S G I N */
+.containerrows {
+
+    background-color: #403d38;
+    font-family: "Alegreya Sans";
+
+
+}
+
+.rows {
+    margin-top: 50px;
+    width: 90%;
+    margin: auto;
+}
+
+.row1 {
+    margin-top: 30px;
+    padding: 40px 70px;
+    width: 25%;
+    float: left;
+    color: white;
+}
+
+.row1 p {
+    color: #969696;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.row1 li {
+    font-weight: 400;
+
+    font-size: 16px;
+    color: #969696;
+}
+
+.row1 h4 {
+    margin-bottom: 20px;
+}
+
+.last {
+    padding: 40px;
+    text-align: center;
+    color: #969696;
+    background-color: #3b3b3b;
+    ;
+    font-size: 14px;
+}
+
+.last h6 {
+    margin-top: 30px;
+}
+
+
+
+
+
